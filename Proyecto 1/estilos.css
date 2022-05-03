@@ -1,0 +1,154 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../Multimedia/Fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+}
+
+img{
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+
+.titulo{
+    font-family: cursive;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #013220;
+    width: 95%;
+    max-width: auto;
+    margin-bottom: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover{
+    background: #fff;
+    color: #000;
+    transition: .5s ease all;
+}
+
+.container{
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.articulo{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #013220;
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.calculadora td button{
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+}
+
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+
+
+/*
+footer{
+    flex-direction: column;
+    align-content: flex-end;
+    color: #fff;
+    background-color: #000;
+}*/
+
+
+form{
+    width: 95%;
+    border: 3px solid #ccc;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+
+label {
+    padding-top: 10px;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 95%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input:focus{
+    border: 1px solid #050df6;
+}
+
+input[type = "submit"]{
+    margin-bottom: 3px;
+    background: #013220;
+    color: #fff;
+    border: none;
+}
+
+input[type = "submit"]:hover{
+    background: rgba(7, 7, 41, 0.78);
+    color: #070729;
+}

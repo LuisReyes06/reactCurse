@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luis Reyes">
+    <link rel = "stylesheet" type = "text/css" href = "estilos.css">
+    <script src = "JS/app.js" type = "text/javascript"></script>
+    
+    <title>Bootcamp Emonics</title>
+</head>
+<body onload = "init();">
+
+    <header>
+
+        <h1 class = "titulo">Luis Ariel Reyes Cedillo</h1>
+        
+    </header>
+
+    <nav>
+        
+        <ul class = "menu">
+
+            <li><a href="firstStep.html">Articulo</a></li>
+            <li><a href="secondStep.html">Formularios</a></li>
+            <li><a href="thirdStep.html">Rick Astley</a></li>
+
+        </ul>
+        
+    </nav>
+
+    <div class = "articulo">
+
+        <a href = "#" onclick = "alert('Hola Mundo JS'); console.log('Hola Mundo')">Hola Mundo</a>
+        
+    </div>
+
+    <div class = "container">
+    
+        <div>
+    
+            <table class = "calculadora">
+    
+                <tr>
+                    <td colspan = "4"><span id = "resultado"></span></td>
+                </tr>
+                <tr>
+                    <td><button id = "siete">7</button></td>
+                    <td><button id = "ocho">8</button></td>
+                    <td><button id = "nueve">9</button></td>
+                    <td><button id = "division">/</button></td>
+                </tr>
+                <tr>
+                    <td><button id = "cuatro">4</button></td>
+                    <td><button id = "cinco">5</button></td>
+                    <td><button id = "seis">6</button></td>
+                    <td><button id = "multiplicacion">x</button></td>
+                </tr>
+                <tr>
+                    <td><button id = "uno">1</button></td>
+                    <td><button id = "dos">2</button></td>
+                    <td><button id = "tres">3</button></td>
+                    <td><button id = "resta">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id = "igual">=</button></td>
+                    <td><button id = "reset">C</button></td>
+                    <td><button id = "cero">0</button></td>
+                    <td><button id = "suma">+</button></td>
+                </tr>
+        
+            </table>
+    
+        </div>
+    
+        <div>
+    
+            <form>
+                
+                <label>Introduce tu edad:</label>
+                <input type = "text" id = "edad" placeholder = "Ingrese su edad">
+
+                <textarea id = "area" cols = "40" rows = "10"></textarea>
+                <br><br>
+                <input type = "submit" value = "Ingresar" onclick = "mayorEdad()">
+    
+            </form>
+    
+        </div>
+
+        <div>
+    
+            <form>
+                
+                <label>Introduce tu calificacion:</label>
+                <input type = "text" id = "calificacion" placeholder = "Ingrese su calificacion">
+
+                <textarea id = "areaC" cols = "40" rows = "10"></textarea>
+                <br><br>
+                <input type = "submit" value = "Ingresar" onclick = "evaluacion()">
+    
+            </form>
+    
+        </div>
+
+    </div>
+
+    <footer>
+
+        <p class = "enlaces">Derechos reservados XD</p>
+
+        <img src = "Multimedia/Logo.png"/>
+
+    </footer>
+    
+</body>
+</html>
